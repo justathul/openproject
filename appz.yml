@@ -4,11 +4,11 @@ app:
     notify: apsuresh@ecloudcontrol.com
 
 build:
-    version: 11.3
+    version: 12.3
     env: DEV
     build_file: none
     output_files: output/*.zip
-    image_template: openproject-11.3
+    image_template: openproject-12.3
 
 deploy:
     context: justathul/DEV
